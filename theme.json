@@ -1,0 +1,11 @@
+{
+  "name": "No Recommend",
+  "author": "ReticentRobot",
+  "version": "v1.0",
+  "description": "Remove the 'You've played for X hours, Would you recommend this game to other players?' box from the the game page.",
+  "target": "Desktop-Tweak",
+  "manifest_version": 8,
+  "inject": {
+    "shared.css": ["Steam"]
+  }
+}
